@@ -11,6 +11,7 @@ class HomePage extends StatelessWidget {
         title: Text('BBPI'),
         backgroundColor: Colors.greenAccent.shade400,
       ),
+      body: Image.asset('assets/images/bbpi_logo.png'),
     );
   }
 }
