@@ -1,3 +1,3 @@
 class AppConstant {
-  static const homePage = '/HomePage';
+  static const home_page = '/HomePage';
 }
