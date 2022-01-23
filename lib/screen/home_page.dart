@@ -186,6 +186,7 @@ class HomePage extends StatelessWidget {
     @required String? name,
     @required IconData? iconData,
     @required VoidCallback? onTab,
+    @required Image? imageIcon,
   }) {
     return GestureDetector(
       onTap: onTab,
