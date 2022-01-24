@@ -11,7 +11,7 @@ class HomePage extends StatelessWidget {
       backgroundColor: Colors.white70,
       appBar: AppBar(
         title: Text('BBPI'),
-        backgroundColor: Colors.greenAccent.shade400,
+        backgroundColor: Colors.green,
       ),
       body: SingleChildScrollView(
         child: SizedBox(
@@ -42,8 +42,8 @@ class HomePage extends StatelessWidget {
                         child: _customButton(
                           context: context,
                           name: 'Mujib Corner',
-                          color: Colors.greenAccent.shade400,
-                          iconData: Icons.computer,
+                          color: Colors.green,
+                          // iconData: Icons.computer,
                           onTab: () {
                             // Navigator.pushNamed(context, AppConstant.deptView);
                           },
@@ -53,11 +53,12 @@ class HomePage extends StatelessWidget {
                         child: _customButton(
                           context: context,
                           name: 'Technology',
-                          color: Colors.greenAccent.shade400,
-                          iconData: Icons.architecture,
+                          color: Colors.green,
+                          image: 'assets/icon/technology.png',
+                          // iconData: Icons.architecture,
                           onTab: () {
                             // Navigator.pushNamed(
-                                // context, AppConstant.doctorPage);
+                            // context, AppConstant.doctorPage);
                           },
                         ),
                       ),
@@ -71,11 +72,12 @@ class HomePage extends StatelessWidget {
                         child: _customButton(
                           context: context,
                           name: 'Teachers & Staffs',
-                          color: Colors.greenAccent.shade400,
-                          iconData: Icons.electrical_services,
+                          color: Colors.green,
+                          image: 'assets/icon/teacher.png',
+                          // iconData: Icons.electrical_services,
                           onTab: () {
                             // Navigator.pushNamed(
-                                // context, AppConstant.teacherPage);
+                            // context, AppConstant.teacherPage);
                           },
                         ),
                       ),
@@ -83,8 +85,9 @@ class HomePage extends StatelessWidget {
                         child: _customButton(
                           context: context,
                           name: 'Students Info',
-                          color: Colors.greenAccent.shade400,
-                          iconData: Icons.ac_unit,
+                          color: Colors.green,
+                          // iconData: Icons.ac_unit,
+                          image: 'assets/icon/student.png',
                           onTab: () {},
                         ),
                       ),
@@ -93,80 +96,86 @@ class HomePage extends StatelessWidget {
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceAround,
                     crossAxisAlignment: CrossAxisAlignment.center,
-                      children: [
-                        Expanded(
-                          child: _customButton(
-                            context: context,
-                            name: 'Innovation Corner',
-                            color: Colors.greenAccent.shade400,
-                            iconData: Icons.electrical_services,
-                            onTab: () {
-                              // Navigator.pushNamed(
-                                  // context, AppConstant.teacherPage);
-                            },
-                          ),
+                    children: [
+                      Expanded(
+                        child: _customButton(
+                          context: context,
+                          name: 'Innovation Corner',
+                          color: Colors.green,
+                          image: 'assets/icon/innovation.png',
+                          // iconData: Icons.electrical_services,
+                          onTab: () {
+                            // Navigator.pushNamed(
+                            // context, AppConstant.teacherPage);
+                          },
                         ),
-                        Expanded(
-                          child: _customButton(
-                            context: context,
-                            name: 'Job Cell',
-                            color: Colors.greenAccent.shade400,
-                            iconData: Icons.ac_unit,
-                            onTab: () {},
-                          ),
+                      ),
+                      Expanded(
+                        child: _customButton(
+                          context: context,
+                          name: 'Job Cell',
+                          color: Colors.green,
+                          image: 'assets/icon/job.png',
+                          // iconData: Icons.ac_unit,
+                          onTab: () {},
                         ),
-                      ],
-                    ),
+                      ),
+                    ],
+                  ),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceAround,
-                        crossAxisAlignment: CrossAxisAlignment.center,
-                      children: [
-                        Expanded(
-                          child: _customButton(
-                            context: context,
-                            name: 'Notice',
-                            color: Colors.greenAccent.shade400,
-                            iconData: Icons.electrical_services,
-                            onTab: () {
-                              // Navigator.pushNamed(
-                                  // context, AppConstant.teacherPage);
-                            },
-                          ),
+                    crossAxisAlignment: CrossAxisAlignment.center,
+                    children: [
+                      Expanded(
+                        child: _customButton(
+                          context: context,
+                          name: 'Notice',
+                          color: Colors.green,
+                          image: 'assets/icon/notice.png',
+                          // iconData: Icons.electrical_services,
+                          onTab: () {
+                            // Navigator.pushNamed(
+                            // context, AppConstant.teacherPage);
+                          },
                         ),
-                        Expanded(
-                          child: _customButton(
-                            context: context,
-                            name: 'Results',
-                            color: Colors.greenAccent.shade400,
-                            iconData: Icons.ac_unit,
-                            onTab: () {},
-                          ),
+                      ),
+                      Expanded(
+                        child: _customButton(
+                          context: context,
+                          name: 'Results',
+                          color: Colors.green,
+                          image: 'assets/icon/results.png',
+                          // iconData: Icons.ac_unit,
+                          onTab: () {},
                         ),
-                      ],
-                    ),
+                      ),
+                    ],
+                  ),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceAround,
-                        crossAxisAlignment: CrossAxisAlignment.center,
-                      children: [
-                        Expanded(
-                          child: _customButton(
-                            context: context,
-                            name: 'Gallery',
-                            color: Colors.greenAccent.shade400,
-                            iconData: Icons.electrical_services,
-                            onTab: () {
-                              // Navigator.pushNamed(
-                                  // context, AppConstant.teacherPage);
-                            },
-                          ),
+                    crossAxisAlignment: CrossAxisAlignment.center,
+                    children: [
+                      Expanded(
+                        child: _customButton(
+                          context: context,
+                          name: 'Gallery',
+                          color: Colors.green,
+                          image: 'assets/icon/gallery.png',
+                          // iconData: Icons.electrical_services,
+                          onTab: () {
+                            // Navigator.pushNamed(
+                            // context, AppConstant.teacherPage);
+                          },
                         ),
-                        Expanded(
-                          child: _customButton(
-                            context: context,
-                            name: 'Downloads',
-                            color: Colors.greenAccent.shade400,
-                            iconData: Icons.ac_unit,
-                            onTab: () {},
+                      ),
+                      Expanded(
+                        child: _customButton(
+                          context: context,
+                          name: 'Downloads',
+                          color: Colors.green,
+                          image: 'assets/icon/downloead.png',
+                          // iconData: Icons.ac_unit,
+                          onTab: () {},
                         ),
                       ),
                     ],
@@ -184,9 +193,9 @@ class HomePage extends StatelessWidget {
     BuildContext? context,
     @required Color? color,
     @required String? name,
-    @required IconData? iconData,
+    // @required IconData? iconData,
     @required VoidCallback? onTab,
-    @required Image? imageIcon,
+    @required String? image,
   }) {
     return GestureDetector(
       onTap: onTab,
@@ -202,10 +211,15 @@ class HomePage extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.center,
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Icon(
-              iconData,
-              size: 50.0,
+            Image.asset(
+              'image',
+              height: 20.0,
+              width: 20.0,
             ),
+            // Icon(
+            //   iconData,
+            //   size: 50.0,
+            // ),
             Text(
               '$name',
               style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
@@ -216,5 +230,3 @@ class HomePage extends StatelessWidget {
     );
   }
 }
-
-
