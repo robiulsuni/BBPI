@@ -11,7 +11,7 @@ class HomePage extends StatelessWidget {
       backgroundColor: Colors.white70,
       appBar: AppBar(
         title: Text('BBPI'),
-        backgroundColor: Colors.green,
+        backgroundColor: Colors.green.shade900,
       ),
       body: SingleChildScrollView(
         child: SizedBox(
@@ -24,7 +24,7 @@ class HomePage extends StatelessWidget {
                 imageFilter: ImageFilter.blur(sigmaX: 2.50, sigmaY: 2.50),
                 child: Image.asset(
                   'assets/images/_logo.png',
-                  fit: BoxFit.fill,
+                  fit: BoxFit.cover,
                 ),
               ),
               Column(
@@ -42,8 +42,9 @@ class HomePage extends StatelessWidget {
                         child: _customButton(
                           context: context,
                           name: 'Mujib Corner',
-                          color: Colors.green,
+                          color: Colors.green.shade900,
                           // iconData: Icons.computer,
+                          image: "assets/icon/mujib.png",
                           onTab: () {
                             // Navigator.pushNamed(context, AppConstant.deptView);
                           },
@@ -53,8 +54,8 @@ class HomePage extends StatelessWidget {
                         child: _customButton(
                           context: context,
                           name: 'Technology',
-                          color: Colors.green,
-                          image: 'assets/icon/technology.png',
+                          color: Colors.green.shade900,
+                          image: "assets/icon/technology.png",
                           // iconData: Icons.architecture,
                           onTab: () {
                             // Navigator.pushNamed(
@@ -72,8 +73,8 @@ class HomePage extends StatelessWidget {
                         child: _customButton(
                           context: context,
                           name: 'Teachers & Staffs',
-                          color: Colors.green,
-                          image: 'assets/icon/teacher.png',
+                          color: Colors.green.shade900,
+                          image: "assets/icon/teacher.png",
                           // iconData: Icons.electrical_services,
                           onTab: () {
                             // Navigator.pushNamed(
@@ -85,9 +86,9 @@ class HomePage extends StatelessWidget {
                         child: _customButton(
                           context: context,
                           name: 'Students Info',
-                          color: Colors.green,
+                          color: Colors.green.shade900,
                           // iconData: Icons.ac_unit,
-                          image: 'assets/icon/student.png',
+                          image: "assets/icon/student.png",
                           onTab: () {},
                         ),
                       ),
@@ -101,8 +102,8 @@ class HomePage extends StatelessWidget {
                         child: _customButton(
                           context: context,
                           name: 'Innovation Corner',
-                          color: Colors.green,
-                          image: 'assets/icon/innovation.png',
+                          color: Colors.green.shade900,
+                          image: "assets/icon/innovation.png",
                           // iconData: Icons.electrical_services,
                           onTab: () {
                             // Navigator.pushNamed(
@@ -114,8 +115,8 @@ class HomePage extends StatelessWidget {
                         child: _customButton(
                           context: context,
                           name: 'Job Cell',
-                          color: Colors.green,
-                          image: 'assets/icon/job.png',
+                          color: Colors.green.shade900,
+                          image: "assets/icon/job.png",
                           // iconData: Icons.ac_unit,
                           onTab: () {},
                         ),
@@ -130,8 +131,8 @@ class HomePage extends StatelessWidget {
                         child: _customButton(
                           context: context,
                           name: 'Notice',
-                          color: Colors.green,
-                          image: 'assets/icon/notice.png',
+                          color: Colors.green.shade900,
+                          image: "assets/icon/notice.png",
                           // iconData: Icons.electrical_services,
                           onTab: () {
                             // Navigator.pushNamed(
@@ -143,8 +144,8 @@ class HomePage extends StatelessWidget {
                         child: _customButton(
                           context: context,
                           name: 'Results',
-                          color: Colors.green,
-                          image: 'assets/icon/results.png',
+                          color: Colors.green.shade900,
+                          image: "assets/icon/results.png",
                           // iconData: Icons.ac_unit,
                           onTab: () {},
                         ),
@@ -159,8 +160,8 @@ class HomePage extends StatelessWidget {
                         child: _customButton(
                           context: context,
                           name: 'Gallery',
-                          color: Colors.green,
-                          image: 'assets/icon/gallery.png',
+                          color: Colors.green.shade900,
+                          image: "assets/icon/gallery.png",
                           // iconData: Icons.electrical_services,
                           onTab: () {
                             // Navigator.pushNamed(
@@ -172,8 +173,8 @@ class HomePage extends StatelessWidget {
                         child: _customButton(
                           context: context,
                           name: 'Downloads',
-                          color: Colors.green,
-                          image: 'assets/icon/downloead.png',
+                          color: Colors.green.shade900,
+                          image: "assets/icon/downloead.png",
                           // iconData: Icons.ac_unit,
                           onTab: () {},
                         ),
@@ -204,7 +205,7 @@ class HomePage extends StatelessWidget {
         padding: EdgeInsets.all(10.0),
         margin: EdgeInsets.symmetric(horizontal: 5, vertical: 5),
         // width: MediaQuery.of(context!).size.width * .44,
-        height: 120.0,
+        height: 100.0,
         decoration: BoxDecoration(
             color: color, borderRadius: BorderRadius.circular(15.0)),
         child: Column(
@@ -212,9 +213,9 @@ class HomePage extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Image.asset(
-              'image',
-              height: 20.0,
-              width: 20.0,
+              '$image',
+              height: 50.0,
+              width: 50.0,
             ),
             // Icon(
             //   iconData,
@@ -222,7 +223,10 @@ class HomePage extends StatelessWidget {
             // ),
             Text(
               '$name',
-              style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
+              style: TextStyle(
+                  fontSize: 15.0,
+                  fontWeight: FontWeight.bold,
+                  color: Colors.red.shade600),
             ),
           ],
         ),
