@@ -1,5 +1,5 @@
 import 'dart:ui';
-
+import '../constants/app_constants.dart';
 import 'package:bbpi/global_widget/my_drware.dart';
 import 'package:flutter/material.dart';
 
@@ -46,7 +46,8 @@ class HomePage extends StatelessWidget {
                           // iconData: Icons.computer,
                           image: "assets/icon/mujib.png",
                           onTab: () {
-                            // Navigator.pushNamed(context, AppConstant.deptView);
+                            Navigator.pushNamed(
+                                context, AppConstant.mujib_view);
                           },
                         ),
                       ),
