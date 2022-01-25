@@ -19,14 +19,20 @@ class MujibView extends StatelessWidget {
               itemCount: mujib.length,
               itemBuilder: (context, index) {
                 MujibModel mujibModel = mujib.elementAt(index);
-                return Column(
-                  crossAxisAlignment: CrossAxisAlignment.center,
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    Image.asset('${mujib.elementAt(index).img}'),
-                    Text('${mujib.elementAt(index).mujibTital}'),
-                    Text('${mujib.elementAt(index).mujibDefinition}'),
-                  ],
+                return Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.center,
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Image.asset('${mujib.elementAt(index).img}'),
+                      Text(
+                        '${mujib.elementAt(index).mujibTital}',
+                        style: TextStyle(fontSize: 20),
+                      ),
+                      Text('${mujib.elementAt(index).mujibDefinition}'),
+                    ],
+                  ),
                 );
               });
         },
