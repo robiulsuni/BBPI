@@ -1,0 +1,33 @@
+[
+    {
+        "id": 1,
+        "img":"",
+        "computer": "Computer Technology",
+        "departmentinfo": "The department of Computer Technology was established at Brahmanbaria Polytechnic Institute in 2005. The Department of Computer Technology is one of the Dynamic departments of Brahmanbaria Polytechnic Institute. The main focus of the Computer department is on major areas of Web, Programming, Networking , Multimedia & Graphics, Application System Software, Hardware & Troubleshooting. The department is committed to the study and analysis of fundamental as well as applied problems. Teachers and students of the department work in solving problems in the fields of conventional and latest technology. After completion of the course our student are performing in the area of Web, Programming, Android Apps Application, Networking , Multimedia & Graphics, Application System Software, Hardware & Troubleshooting.",
+        "lab": "Lab Information \n 01. Network Lab \n 02. Hardware Lab \n 03. Software Lab \n Total Seat : 200"
+        
+    },
+    {
+        "id": 2,
+        "img":"",
+        "architecture": "Architecture & Interior Design Technology",
+        "departmentinfo": "",
+        "lab": ""
+    },
+    {
+        "id": 3,
+        "img":"",
+        "architecture": "Electromedial Technology",
+        "departmentinfo": "",
+        "lab": ""
+    },
+    {
+        "id": 4,
+        "img":"",
+        "architecture": "Electromedial Technology",
+        "departmentinfo": "",
+        "lab": ""
+    }
+    
+
+]
