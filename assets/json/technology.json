@@ -17,14 +17,14 @@
     {
         "id": 3,
         "img":"",
-        "architecture": "Electromedial Technology",
+        "electromedical": "Electromedical Technology",
         "departmentinfo": "",
         "lab": ""
     },
     {
         "id": 4,
         "img":"",
-        "architecture": "Electromedial Technology",
+        "refrigeration": "Refrigeration & Air-conditioning Technology",
         "departmentinfo": "",
         "lab": ""
     }
