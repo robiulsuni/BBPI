@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import '../models/teacher_model.dart';
 import '../repositories/teacher_repo.dart';
+import '../screen/teacher_details_view.dart';
 
 class TeacherView extends StatelessWidget {
   @override
@@ -17,9 +18,15 @@ class TeacherView extends StatelessWidget {
           return ListView.builder(
               itemCount: teacher.length,
               itemBuilder: (context, index) {
-                Teacher teachermodel = teacher.elementAt(index);
+                Teacher teacherinfo = teacher.elementAt(index);
                 return ElevatedButton(
-                    onPressed: () {},
+                    onPressed: () {
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) =>
+                                  TeacherDetailsView(teacher: teacherinfo)));
+                    },
                     child: Text('${teacher.elementAt(index).department}'));
               });
         },

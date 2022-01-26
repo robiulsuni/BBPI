@@ -13,7 +13,7 @@ class HomePage extends StatelessWidget {
       backgroundColor: Colors.white70,
       appBar: AppBar(
         title: Text('BBPI'),
-        backgroundColor: Colors.green.shade900,
+        backgroundColor: Colors.green,
       ),
       body: SingleChildScrollView(
         child: SizedBox(
@@ -44,7 +44,7 @@ class HomePage extends StatelessWidget {
                         child: _customButton(
                           context: context,
                           name: 'Mujib Corner',
-                          color: Colors.green.shade900,
+                          color: Colors.green,
                           // iconData: Icons.computer,
                           image: "assets/icon/mujib.png",
                           onTab: () {
@@ -57,7 +57,7 @@ class HomePage extends StatelessWidget {
                         child: _customButton(
                           context: context,
                           name: 'Technology',
-                          color: Colors.green.shade900,
+                          color: Colors.green,
                           image: "assets/icon/technology.png",
                           // iconData: Icons.architecture,
                           onTab: () {
@@ -76,7 +76,7 @@ class HomePage extends StatelessWidget {
                         child: _customButton(
                           context: context,
                           name: 'Teachers & Staffs',
-                          color: Colors.green.shade900,
+                          color: Colors.green,
                           image: "assets/icon/teacher.png",
                           // iconData: Icons.electrical_services,
                           onTab: () {
@@ -89,7 +89,7 @@ class HomePage extends StatelessWidget {
                         child: _customButton(
                           context: context,
                           name: 'Students Info',
-                          color: Colors.green.shade900,
+                          color: Colors.green,
                           // iconData: Icons.ac_unit,
                           image: "assets/icon/student.png",
                           onTab: () {},
@@ -105,7 +105,7 @@ class HomePage extends StatelessWidget {
                         child: _customButton(
                           context: context,
                           name: 'Innovation Corner',
-                          color: Colors.green.shade900,
+                          color: Colors.green,
                           image: "assets/icon/innovation.png",
                           // iconData: Icons.electrical_services,
                           onTab: () {
@@ -118,7 +118,7 @@ class HomePage extends StatelessWidget {
                         child: _customButton(
                           context: context,
                           name: 'Job Cell',
-                          color: Colors.green.shade900,
+                          color: Colors.green,
                           image: "assets/icon/job.png",
                           // iconData: Icons.ac_unit,
                           onTab: () {},
@@ -134,7 +134,7 @@ class HomePage extends StatelessWidget {
                         child: _customButton(
                           context: context,
                           name: 'Notice',
-                          color: Colors.green.shade900,
+                          color: Colors.green,
                           image: "assets/icon/notice.png",
                           // iconData: Icons.electrical_services,
                           onTab: () {
@@ -147,7 +147,7 @@ class HomePage extends StatelessWidget {
                         child: _customButton(
                           context: context,
                           name: 'Results',
-                          color: Colors.green.shade900,
+                          color: Colors.green,
                           image: "assets/icon/results.png",
                           // iconData: Icons.ac_unit,
                           onTab: () {},
@@ -163,7 +163,7 @@ class HomePage extends StatelessWidget {
                         child: _customButton(
                           context: context,
                           name: 'Gallery',
-                          color: Colors.green.shade900,
+                          color: Colors.green,
                           image: "assets/icon/gallery.png",
                           // iconData: Icons.electrical_services,
                           onTab: () {
@@ -176,7 +176,7 @@ class HomePage extends StatelessWidget {
                         child: _customButton(
                           context: context,
                           name: 'Downloads',
-                          color: Colors.green.shade900,
+                          color: Colors.green,
                           image: "assets/icon/downloead.png",
                           // iconData: Icons.ac_unit,
                           onTab: () {},

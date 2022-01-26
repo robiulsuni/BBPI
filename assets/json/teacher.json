@@ -3,7 +3,7 @@
         "id":1,
         "department": "Computer Technology",
         "teacherinfo": {
-            "Selim": {
+            "selim": {
                 "img": "",
                 "name":"Engr. Mohammad Selim",
                 "position": "Instructor (Tech) & Head of the Department of Computer Technology",
