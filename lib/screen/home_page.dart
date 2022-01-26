@@ -62,7 +62,7 @@ class HomePage extends StatelessWidget {
                           // iconData: Icons.architecture,
                           onTab: () {
                             Navigator.pushNamed(
-                            context, AppConstant.technology_view);
+                                context, AppConstant.technology_view);
                           },
                         ),
                       ),
@@ -80,8 +80,8 @@ class HomePage extends StatelessWidget {
                           image: "assets/icon/teacher.png",
                           // iconData: Icons.electrical_services,
                           onTab: () {
-                            // Navigator.pushNamed(
-                            // context, AppConstant.teacherPage);
+                            Navigator.pushNamed(
+                                context, AppConstant.teacher_view);
                           },
                         ),
                       ),
