@@ -10,21 +10,21 @@
     {
         "id": 2,
         "img":"assets/images/technologyimage/architecture.png",
-        "architecture": "Architecture & Interior Design Technology",
+        "computer": "Architecture & Interior Design Technology",
         "departmentinfo": "",
         "lab": ""
     },
     {
         "id": 3,
         "img":"assets/images/technologyimage/electromedical.png",
-        "electromedical": "Electromedical Technology",
+        "computer": "Electromedical Technology",
         "departmentinfo": "",
         "lab": ""
     },
     {
         "id": 4,
         "img":"assets/images/technologyimage/refrigeration.png",
-        "refrigeration": "Refrigeration & Air-conditioning Technology",
+        "computer": "Refrigeration & Air-conditioning Technology",
         "departmentinfo": "",
         "lab": ""
     }
