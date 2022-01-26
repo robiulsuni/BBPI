@@ -28,7 +28,7 @@ class MujibView extends StatelessWidget {
                       Image.asset('${mujib.elementAt(index).img}'),
                       Text(
                         '${mujib.elementAt(index).mujibTital}',
-                        style: TextStyle(fontSize: 20),
+                        style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold),
                       ),
                       Text('${mujib.elementAt(index).mujibDefinition}'),
                     ],

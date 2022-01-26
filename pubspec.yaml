@@ -77,6 +77,11 @@ flutter:
     - assets/icon/contact.png
     - assets/icon/mujib.png
 
+    - assets/images/technologyimage/computer.png
+    - assets/images/technologyimage/architecture.png
+    - assets/images/technologyimage/electromedical.png
+    - assets/images/technologyimage/refrigeration.png
+
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
 

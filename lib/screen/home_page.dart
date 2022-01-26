@@ -3,6 +3,8 @@ import '../constants/app_constants.dart';
 import 'package:bbpi/global_widget/my_drware.dart';
 import 'package:flutter/material.dart';
 
+import 'technology_view.dart';
+
 class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -59,8 +61,8 @@ class HomePage extends StatelessWidget {
                           image: "assets/icon/technology.png",
                           // iconData: Icons.architecture,
                           onTab: () {
-                            // Navigator.pushNamed(
-                            // context, AppConstant.doctorPage);
+                            Navigator.pushNamed(
+                            context, AppConstant.technology_view);
                           },
                         ),
                       ),
