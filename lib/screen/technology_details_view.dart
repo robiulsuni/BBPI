@@ -10,7 +10,7 @@ class TechnologyDetailsView extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Computer Technology'),
+        title: Text('Technology Details'),
       ),
       body: SingleChildScrollView(
         child: Padding(

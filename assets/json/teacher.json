@@ -1,0 +1,182 @@
+[
+    {
+        "id":1,
+        "department": "Computer Technology",
+        "teacherinfo": {
+            "Selim": {
+                "img": "",
+                "name":"Engr. Mohammad Selim",
+                "position": "Instructor (Tech) & Head of the Department of Computer Technology",
+                "education": "B.Sc in CSE (DUET)",
+                "number": "01818-237705"
+            },
+            "al_amin": {
+                "img": "",
+                "name": "Mohammad Al-Amin",
+                "position": "Instructor (Tech) CMT (Step)",
+                "education": "B.Sc in CSE - Jatiya Kabi Kazi Nazrul Islam University",
+                "number": "01737191009"
+            },
+            "al_amin_mridha": {
+                "img": "",
+                "name": "Md. Al-Amin Mridha",
+                "position": "Instructor (Tech) CMT (Step)",
+                "education": "B.Sc in CSE - Sylhet Engineering College",
+                "number": "01724-952828"
+            },
+            "moriom": {
+                "img": "",
+                "name": "Moriom Nesa",
+                "position": "Jr. Instructor (Tech) CMT (Step)",
+                "education": "Diploma in Computer Engineering - Jhenaidah Polytechnic Institute",
+                "number": "01780-455368"
+            },
+            "mirja": {
+                "img": "",
+                "name": "Mirja Sharif Uddin",
+                "position": "Jr. Instructor (Tech) CMT (Step)",
+                "education": "M.Sc in (CSE) \n B.Sc in \n (CSE) \n Diploma in Engineering (Computer Technology)",
+                "number": "01719019350"
+            },
+            "kowsar": {
+                "img": "",
+                "name": "Md. Kowsar Mia",
+                "position": "Craft Instructor, CMT",
+                "education": "",
+                "number": "01714290393"
+            },
+            "yeasin": {
+                "img": "",
+                "name": "Md. Yeasin",
+                "position": "Office Assistant (CMT)",
+                "education": "",
+                "number": "01876740308"
+            }
+        }
+    },
+
+    {
+        "id":2,
+        "department": "Architecture & Interior Design Technology",
+        "teacherinfo": {
+            "nurani": {
+                "img": "",
+                "name": "Mst. Nurani Ahmed",
+                "position": "Jr. Instructor & Head of the Department",
+                "education": "",
+                "number": "01943116826"
+            },
+            "prince": {
+                "img": "",
+                "name": "Prince Kumar Halder",
+                "position": "Instructor (Tech) AIDT (Step)",
+                "education": "Bachelor of Architecture",
+                "number": "01712-733023"
+            },
+            "Shahnaj": {
+                "img": "",
+                "name": "Mst. Shahnaj Pervin",
+                "position": "Jr. Instructor (Tech) AIDT (Step)",
+                "education": "Diploma in Engineering",
+                "number": "01761332528"
+            }
+        }
+    },
+    {
+        "id":3,
+        "department": "Electromedial Technology",
+        "teacherinfo": {
+            "monirul": {
+                "img": "",
+                "name": "Engr. Monirul Haque",
+                "position": "Chief Instructor (EMT)",
+                "education": "",
+                "number": ""
+            },
+            "khadiza": {
+                "img": "",
+                "name": "Mst. Khadiza Khatun",
+                "position": "Instructor (Tech) EMT",
+                "education": "",
+                "number": "01722548650"
+            },
+            "pujan": {
+                "img": "",
+                "name": "Pujan Chandra Paul",
+                "position": "Instructor (Tech) EMT",
+                "education": "B.Sc in Electrical & Electronics Engineering (EEE)",
+                "number": "01714516500"
+            },
+            "kashem": {
+                "img": "",
+                "name": "Md. Abul Kashem",
+                "position": "Jr Instructor (Tech) Electromedical",
+                "education": "BSc in Electrical & Electronics Engineering (EEE) \n Diploma in Electromedical Engineering",
+                "number": "01736460481"
+            },
+            "sajal": {
+                "img": "",
+                "name": "Sajal Chandra Das",
+                "position": "Jr Instructor (Tech) Electromedical",
+                "education": "",
+                "number": "01728928478"
+            },
+            "tofazzol": {
+                "img": "",
+                "name": "Md. Tofazzol Hoque",
+                "position": "Jr Instructor (Tech) Electromedical",
+                "education": "B.Sc in Electrical & Electronics Engineering (EEE)",
+                "number": "01921442230"
+            }
+        }
+    },
+    {
+        "id":4,
+        "department": "Refrigeration & Air-conditioning Technology",
+        "teacherinfo": {
+            "toffazol": {
+                "img": "",
+                "name": "Md. Toffazol Hossen",
+                "position": "Jr Instructor (Tech) & Head of the Department",
+                "education": "",
+                "number": "01710564063"
+            },
+            "Masum": {
+                "img": "",
+                "name": "Shekh Masum Mia",
+                "position": "Instructor (Tech) RAT (Step)",
+                "education": "",
+                "number": "01721115367"
+            },
+            "hasanur": {
+                "img": "",
+                "name": "Md. Hasanur Rahman",
+                "position": "Instructor (Tech) RAT (Step)",
+                "education": "",
+                "number": "01717820178"
+            },
+            "taslima": {
+                "img": "",
+                "name": "Mst. Taslima Khatun",
+                "position": "Junior Instructor (Tech) RAT (Step)",
+                "education": "",
+                "number": "01786669690"
+            }
+        }
+    },
+    {
+        "id":5,
+        "department": "Non-Tech Department",
+        "teacherinfo": {
+            "mostafizar": {
+                "img": "",
+                "name": "Md. Mostafizar Rahman",
+                "position": "Chief Instructor (Non-Tech)",
+                "education": "",
+                "number": "01721900735"
+            }
+            
+        }
+    }
+    
+]

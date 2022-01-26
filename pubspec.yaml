@@ -61,6 +61,9 @@ flutter:
   assets:
     - assets/json/mujib.json
     - assets/json/technology.json
+    - assets/json/teacher.json
+
+
     - assets/images/mujib_corner.jpg
     - assets/images/_logo.png
     - assets/icon/technology.png
