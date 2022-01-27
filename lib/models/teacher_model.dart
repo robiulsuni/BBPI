@@ -9,25 +9,26 @@ List<Teacher> teacherFromJson(String str) =>
 
 class Teacher {
   Teacher({
-    this.id,
-    this.department,
-    this.teacherinfo,
+    required this.id,
+    required this.department,
+    required this.teacherinfo,
   });
 
-  int? id;
-  String? department;
-  Map<String, Teacherinfo>? teacherinfo;
+  int id;
+  String department;
+  List<Teacherinfo> teacherinfo;
 
   factory Teacher.fromJson(Map<String, dynamic> json) => Teacher(
         id: json["id"],
         department: json["department"],
-        teacherinfo: Map.from(json["teacherinfo"]).map((k, v) =>
-            MapEntry<String, Teacherinfo>(k, Teacherinfo.fromJson(v))),
+        teacherinfo: List<Teacherinfo>.from(
+            json["teacherinfo"].map((x) => Teacherinfo.fromJson(x))),
       );
 }
 
 class Teacherinfo {
   Teacherinfo({
+    this.id,
     this.img,
     this.name,
     this.position,
@@ -35,6 +36,7 @@ class Teacherinfo {
     this.number,
   });
 
+  String? id;
   String? img;
   String? name;
   String? position;
@@ -42,6 +44,7 @@ class Teacherinfo {
   String? number;
 
   factory Teacherinfo.fromJson(Map<String, dynamic> json) => Teacherinfo(
+        id: json["id"],
         img: json["img"],
         name: json["name"],
         position: json["position"],

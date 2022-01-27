@@ -59,11 +59,14 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
+
+#json file
     - assets/json/mujib.json
     - assets/json/technology.json
     - assets/json/teacher.json
 
 
+#icon
     - assets/images/mujib_corner.jpg
     - assets/images/_logo.png
     - assets/icon/technology.png
@@ -80,10 +83,35 @@ flutter:
     - assets/icon/contact.png
     - assets/icon/mujib.png
 
+#technology img
     - assets/images/technologyimage/computer.png
     - assets/images/technologyimage/architecture.png
     - assets/images/technologyimage/electromedical.png
     - assets/images/technologyimage/refrigeration.png
+
+#teacher arch
+    - assets/images/teacher_img/architecture/nurani.jpg
+    - assets/images/teacher_img/architecture/prince.jpg
+    - assets/images/teacher_img/architecture/shahnaj.jpg
+#teacher cmt
+    - assets/images/teacher_img/computer/alamin.jpg
+    - assets/images/teacher_img/computer/man.png
+    - assets/images/teacher_img/computer/mirja.jpg
+    - assets/images/teacher_img/computer/moriom.jpg
+    - assets/images/teacher_img/computer/mridha.jpg
+    - assets/images/teacher_img/computer/selim.jpg
+#teacher electro
+    - assets/images/teacher_img/electromedial/abul.jpg
+    - assets/images/teacher_img/electromedial/khadiza.jpg
+    - assets/images/teacher_img/electromedial/monirol.jpg
+    - assets/images/teacher_img/electromedial/sajal.jpg
+    - assets/images/teacher_img/electromedial/tofazzol.jpg
+#teacher refri
+    - assets/images/teacher_img/refrigeration/sheikh.jpg
+    - assets/images/teacher_img/refrigeration/Taslima.jpg
+    - assets/images/teacher_img/refrigeration/toffazolhossen.jpg
+#teacher nontech
+    - assets/images/teacher_img/nontech/mostffizar.jpg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
