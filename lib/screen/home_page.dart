@@ -179,7 +179,10 @@ class HomePage extends StatelessWidget {
                           color: Colors.green,
                           image: "assets/icon/downloead.png",
                           // iconData: Icons.ac_unit,
-                          onTab: () {},
+                          onTab: () {
+                            Navigator.pushNamed(
+                                context, AppConstant.web_link_view);
+                          },
                         ),
                       ),
                     ],
