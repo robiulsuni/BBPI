@@ -21,7 +21,7 @@ class TeacherDetailsView extends StatelessWidget {
             padding: const EdgeInsets.all(20.0),
             child: Column(
               children: [
-                Image.network('${teacherinfo.img}'),
+                Image.asset('${teacherinfo.img}'),
                 Center(child: Text('${teacherinfo.name}')),
                 Center(
                     child: Text(
