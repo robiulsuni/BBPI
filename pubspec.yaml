@@ -90,28 +90,28 @@ flutter:
     - assets/images/technologyimage/refrigeration.png
 
 #teacher arch
-    - assets/images/teacher_img/architecture/nurani.jpg
-    - assets/images/teacher_img/architecture/prince.jpg
-    - assets/images/teacher_img/architecture/shahnaj.jpg
+    - assets/images/teacher_img/arc_nurani.jpg
+    - assets/images/teacher_img/arc_prince.jpg
+    - assets/images/teacher_img/arc_shahnaj.jpg
 #teacher cmt
-    - assets/images/teacher_img/computer/alamin.jpg
-    - assets/images/teacher_img/computer/man.png
-    - assets/images/teacher_img/computer/mirja.jpg
-    - assets/images/teacher_img/computer/moriom.jpg
-    - assets/images/teacher_img/computer/mridha.jpg
-    - assets/images/teacher_img/computer/selim.jpg
+    - assets/images/teacher_img/cmt_alamin.jpg
+    - assets/images/teacher_img/cmt_man.png
+    - assets/images/teacher_img/cmt_mirja.jpg
+    - assets/images/teacher_img/cmt_moriom.jpg
+    - assets/images/teacher_img/cmt_mridha.jpg
+    - assets/images/teacher_img/cmt_selim.jpg
 #teacher electro
-    - assets/images/teacher_img/electromedial/abul.jpg
-    - assets/images/teacher_img/electromedial/khadiza.jpg
-    - assets/images/teacher_img/electromedial/monirol.jpg
-    - assets/images/teacher_img/electromedial/sajal.jpg
-    - assets/images/teacher_img/electromedial/tofazzol.jpg
+    - assets/images/teacher_img/ele_abul.jpg
+    - assets/images/teacher_img/ele_khadiza.jpg
+    - assets/images/teacher_img/ele_monirol.jpg
+    - assets/images/teacher_img/ele_sajal.jpg
+    - assets/images/teacher_img/ele_tofazzol.jpg
 #teacher refri
-    - assets/images/teacher_img/refrigeration/sheikh.jpg
-    - assets/images/teacher_img/refrigeration/Taslima.jpg
-    - assets/images/teacher_img/refrigeration/toffazolhossen.jpg
+    - assets/images/teacher_img/ref_sheikh.jpg
+    - assets/images/teacher_img/ref_Taslima.jpg
+    - assets/images/teacher_img/ref_toffazolhossen.jpg
 #teacher nontech
-    - assets/images/teacher_img/nontech/mostffizar.jpg
+    - assets/images/teacher_img/nont_mostffizar.jpg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

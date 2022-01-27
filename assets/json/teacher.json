@@ -5,7 +5,7 @@
         "teacherinfo": [
             {
                 "id": "1",
-                "img": "assets/images/teacher_img/computer/selim.jpg",
+                "img": "assets/images/teacher_img/cmt_selim.jpg",
                 "name":"Engr. Mohammad Selim",
                 "position": "Instructor (Tech) & Head of the Department of Computer Technology",
                 "education": "B.Sc in CSE (DUET)",
@@ -13,7 +13,7 @@
             },
              {  
                 "id": "2",
-                "img": "assets/images/teacher_img/computer/alamin.jpg",
+                "img": "assets/images/teacher_img/cmt_alamin.jpg",
                 "name": "Mohammad Al-Amin",
                 "position": "Instructor (Tech) CMT (Step)",
                 "education": "B.Sc in CSE - Jatiya Kabi Kazi Nazrul Islam University",
@@ -21,7 +21,7 @@
             },
           {
                 "id": "3",
-                "img": "assets/images/teacher_img/computer/mridha.jpg",
+                "img": "assets/images/teacher_img/cmt_mridha.jpg",
                 "name": "Md. Al-Amin Mridha",
                 "position": "Instructor (Tech) CMT (Step)",
                 "education": "B.Sc in CSE - Sylhet Engineering College",
@@ -29,7 +29,7 @@
             },
             {
                 "id": "4",
-                "img": "assets/images/teacher_img/computer/moriom.jpg",
+                "img": "assets/images/teacher_img/cmt_moriom.jpg",
                 "name": "Moriom Nesa",
                 "position": "Jr. Instructor (Tech) CMT (Step)",
                 "education": "Diploma in Computer Engineering - Jhenaidah Polytechnic Institute",
@@ -37,7 +37,7 @@
             },
           {
                 "id": "5",
-                "img": "assets/images/teacher_img/computer/mirja.jpg",
+                "img": "assets/images/teacher_img/cmt_mirja.jpg",
                 "name": "Mirja Sharif Uddin",
                 "position": "Jr. Instructor (Tech) CMT (Step)",
                 "education": "M.Sc in (CSE) \nB.Sc in \n(CSE)\n Diploma in Engineering (Computer Technology)",
@@ -45,7 +45,7 @@
             },
         {
                 "id": "6",
-                "img": "assets/images/teacher_img/computer/man.png",
+                "img": "assets/images/teacher_img/cmt_man.png",
                 "name": "Md. Kowsar Mia",
                 "position": "Craft Instructor, CMT",
                 "education": "",
@@ -53,7 +53,7 @@
             },
           {
                 "id": "7",
-                "img": "assets/images/teacher_img/computer/man.png",
+                "img": "assets/images/teacher_img/cmt_man.png",
                 "name": "Md. Yeasin",
                 "position": "Office Assistant (CMT)",
                 "education": "",
@@ -68,7 +68,7 @@
         "teacherinfo": [
            {
             "id": "1",
-                "img": "assets/images/teacher_img/architecture/nurani.jpg",
+                "img": "assets/images/teacher_img/arc_nurani.jpg",
                 "name": "Mst. Nurani Ahmed",
                 "position": "Jr. Instructor & Head of the Department",
                 "education": "",
@@ -76,7 +76,7 @@
             },
             {
                 "id": "2",
-                "img": "assets/images/teacher_img/architecture/prince.jpg",
+                "img": "assets/images/teacher_img/arc_prince.jpg",
                 "name": "Prince Kumar Halder",
                 "position": "Instructor (Tech) AIDT (Step)",
                 "education": "Bachelor of Architecture",
@@ -84,7 +84,7 @@
             },
             {
                 "id": "3",
-                "img": "assets/images/teacher_img/architecture/shahnaj.jpg",
+                "img": "assets/images/teacher_img/arc_shahnaj.jpg",
                 "name": "Mst. Shahnaj Pervin",
                 "position": "Jr. Instructor (Tech) AIDT (Step)",
                 "education": "Diploma in Engineering",
@@ -98,7 +98,7 @@
         "teacherinfo": [
             {
                 "id":"1",
-                "img": "assets/images/teacher_img/electromedial/monirol.jpg",
+                "img": "assets/images/teacher_img/ele_monirol.jpg",
                 "name": "Engr. Monirul Haque",
                 "position": "Chief Instructor (EMT)",
                 "education": "",
@@ -106,7 +106,7 @@
             },
             {
                 "id":"2",
-                "img": "assets/images/teacher_img/electromedial/khadiza.jpg",
+                "img": "assets/images/teacher_img/ele_khadiza.jpg",
                 "name": "Mst. Khadiza Khatun",
                 "position": "Instructor (Tech) EMT",
                 "education": "",
@@ -114,7 +114,7 @@
             },
             {
                 "id":"3",
-                "img": "assets/images/teacher_img/computer/man.png",
+                "img": "assets/images/teacher_img/cmt_man.png",
                 "name": "Pujan Chandra Paul",
                 "position": "Instructor (Tech) EMT",
                 "education": "B.Sc in Electrical & Electronics Engineering (EEE)",
@@ -122,7 +122,7 @@
             },
             {
                 "id":"4",
-                "img": "assets/images/teacher_img/electromedial/abul.jpg",
+                "img": "assets/images/teacher_img/ele_abul.jpg",
                 "name": "Md. Abul Kashem",
                 "position": "Jr Instructor (Tech) Electromedical",
                 "education": "BSc in Electrical & Electronics Engineering (EEE) \n Diploma in Electromedical Engineering",
@@ -130,7 +130,7 @@
             },
             {
                 "id":"5",
-                "img": "assets/images/teacher_img/electromedial/sajal.jpg",
+                "img": "assets/images/teacher_img/ele_sajal.jpg",
                 "name": "Sajal Chandra Das",
                 "position": "Jr Instructor (Tech) Electromedical",
                 "education": "",
@@ -138,7 +138,7 @@
             },
             {
                 "id":"6",
-                "img": "assets/images/teacher_img/electromedial/tofazzol.jpg",
+                "img": "assets/images/teacher_img/ele_tofazzol.jpg",
                 "name": "Md. Tofazzol Hoque",
                 "position": "Jr Instructor (Tech) Electromedical",
                 "education": "B.Sc in Electrical & Electronics Engineering (EEE)",
@@ -152,7 +152,7 @@
         "teacherinfo": [
             {
                 "id":"1",
-                "img": "assets/images/teacher_img/refrigeration/toffazolhossen.jpg",
+                "img": "assets/images/teacher_img/ref_toffazolhossen.jpg",
                 "name": "Md. Toffazol Hossen",
                 "position": "Jr Instructor (Tech) & Head of the Department",
                 "education": "",
@@ -160,7 +160,7 @@
             },
             {
                 "id":"2",
-                "img": "assets/images/teacher_img/refrigeration/sheikh.jpg",
+                "img": "assets/images/teacher_img/ref_sheikh.jpg",
                 "name": "Shekh Masum Mia",
                 "position": "Instructor (Tech) RAT (Step)",
                 "education": "",
@@ -168,7 +168,7 @@
             },
             {
                 "id":"3",
-                "img": "assets/images/teacher_img/computer/man.png",
+                "img": "assets/images/teacher_img/cmt_man.png",
                 "name": "Md. Hasanur Rahman",
                 "position": "Instructor (Tech) RAT (Step)",
                 "education": "",
@@ -176,7 +176,7 @@
             },
             {
                 "id":"4",
-                "img": "assets/images/teacher_img/refrigeration/Taslima.jpg",
+                "img": "assets/images/teacher_img/ref_Taslima.jpg",
                 "name": "Mst. Taslima Khatun",
                 "position": "Junior Instructor (Tech) RAT (Step)",
                 "education": "",
@@ -190,7 +190,7 @@
         "teacherinfo": [
             {
                 "id":"1",
-                "img": "assets/images/teacher_img/nontech/mostffizar.jpg",
+                "img": "assets/images/teacher_img/nont_mostffizar.jpg",
                 "name": "Md. Mostafizar Rahman",
                 "position": "Chief Instructor (Non-Tech)",
                 "education": "",
