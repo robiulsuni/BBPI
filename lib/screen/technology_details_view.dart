@@ -17,7 +17,7 @@ class TechnologyDetailsView extends StatelessWidget {
           padding: const EdgeInsets.all(8.0),
           child: Column(
             children: [
-              Image.asset('${technologmodel.img}'),
+              Image.asset('${technologmodel.img}',color: Colors.green,),
               Center(child: Text('${technologmodel.computer}')),
               Center(child: Text('${technologmodel.departmentinfo}')),
               Center(child: Text('${technologmodel.lab}')),
