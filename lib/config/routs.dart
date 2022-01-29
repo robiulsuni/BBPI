@@ -4,6 +4,9 @@ import '../screen/mujib_view.dart';
 import '../screen/technology_view.dart';
 import '../screen/teacher_view.dart';
 import '../screen/web_link_view.dart';
+import '../screen/student_view.dart';
+import '../screen/innovation_view.dart';
+import '../screen/job_view.dart';
 
 class AppRoutes {
   static final myInitRoute = AppConstant.home_page;
@@ -13,5 +16,8 @@ class AppRoutes {
     AppConstant.technology_view: (context) => TechnologyView(),
     AppConstant.teacher_view: (context) => TeacherView(),
     AppConstant.web_link_view: (context) => WebLinkView(),
+    AppConstant.student_view: (context) => StudentView(),
+    AppConstant.innovation_view: (context) => InnovationView(),
+    AppConstant.job_view: (context) => JobView(),
   };
 }

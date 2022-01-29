@@ -1,5 +1,4 @@
 import 'package:flutter/services.dart';
-
 import '../models/technology_model.dart';
 
 class TechnologRepo {

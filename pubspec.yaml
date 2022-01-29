@@ -66,11 +66,18 @@ flutter:
     - assets/json/technology.json
     - assets/json/teacher.json
     - assets/json/web_link.json
+    - assets/json/student.json
+    - assets/json/innovation.json
+    - assets/json/job.json
 
 
 #icon
     - assets/images/mujib_corner.jpg
     - assets/images/_logo.png
+    - assets/images/studentinfo.png
+    - assets/images/mrelctromedial.jpg
+    - assets/images/yahoo.png
+    - assets/images/creative.png
     - assets/icon/technology.png
     - assets/icon/teacher.png
     - assets/icon/student.png

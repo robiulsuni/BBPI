@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "img": "assets/images/yahoo.png",
+        "idea_titel": "Innovation Idea Submit",
+        "idea_description": "Dear Students please submit your innovation idea through this \nEmail: bbariapoly@yahoo.com \n or \n Call: 01926022837"
+    },
+    {
+        "id": 2,
+        "img": "assets/images/mrelctromedial.jpg",
+        "idea_titel": "Robot Mr. Elctromedical",
+        "idea_description": "The robot, called 'Mr. Electromedical' can perform various tests including human body temperature, heart rate, oxygen volume, and blood pressure measurements. More sophisticated technologies are being added at the same time."
+    }
+]

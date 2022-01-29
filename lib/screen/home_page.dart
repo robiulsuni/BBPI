@@ -92,7 +92,10 @@ class HomePage extends StatelessWidget {
                           color: Colors.green,
                           // iconData: Icons.ac_unit,
                           image: "assets/icon/student.png",
-                          onTab: () {},
+                          onTab: () {
+                            Navigator.pushNamed(
+                                context, AppConstant.student_view);
+                          },
                         ),
                       ),
                     ],
@@ -109,8 +112,8 @@ class HomePage extends StatelessWidget {
                           image: "assets/icon/innovation.png",
                           // iconData: Icons.electrical_services,
                           onTab: () {
-                            // Navigator.pushNamed(
-                            // context, AppConstant.teacherPage);
+                            Navigator.pushNamed(
+                                context, AppConstant.innovation_view);
                           },
                         ),
                       ),
@@ -120,8 +123,9 @@ class HomePage extends StatelessWidget {
                           name: 'Job Cell',
                           color: Colors.green,
                           image: "assets/icon/job.png",
-                          // iconData: Icons.ac_unit,
-                          onTab: () {},
+                          onTab: () {
+                            Navigator.pushNamed(context, AppConstant.job_view);
+                          },
                         ),
                       ),
                     ],
