@@ -19,7 +19,13 @@ class JobView extends StatelessWidget {
                     crossAxisAlignment: CrossAxisAlignment.center,
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      Image.asset('${job.elementAt(index).img}'),
+                      Padding(
+                        padding: const EdgeInsets.all(50.0),
+                        child: Image.asset(
+                          '${job.elementAt(index).img}',
+                          color: Colors.green,
+                        ),
+                      ),
                       Text('${job.elementAt(index).jobdefinition}'),
                     ],
                   );

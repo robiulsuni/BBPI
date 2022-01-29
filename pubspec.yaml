@@ -70,6 +70,8 @@ flutter:
     - assets/json/innovation.json
     - assets/json/job.json
 
+    - assets/images/bbpi_logo.png
+
 
 #icon
     - assets/images/mujib_corner.jpg
