@@ -8,7 +8,7 @@ class MyDrawer extends StatelessWidget {
       child: Wrap(
         children: [
           DrawerHeader(
-            decoration: BoxDecoration(color: Colors.greenAccent.shade400),
+            decoration: BoxDecoration(color: Colors.green),
             child: Container(
               width: MediaQuery.of(context).size.width,
               child: Icon(Icons.verified_user_sharp),
