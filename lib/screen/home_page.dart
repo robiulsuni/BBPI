@@ -37,6 +37,14 @@ class HomePage extends StatelessWidget {
                     height: 10.0,
                   ),
                   Row(
+                    children: [
+                      Container(
+                          height: 50.0,
+                          width: 100.0,
+                          child: Image.asset('assets/images/_.jpg')),
+                    ],
+                  ),
+                  Row(
                     mainAxisAlignment: MainAxisAlignment.spaceAround,
                     crossAxisAlignment: CrossAxisAlignment.center,
                     children: [
