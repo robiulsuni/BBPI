@@ -62,14 +62,9 @@ flutter:
   assets:
 
 #json file
-    - assets/json/mujib.json
-    - assets/json/technology.json
-    - assets/json/teacher.json
-    - assets/json/web_link.json
-    - assets/json/student.json
-    - assets/json/innovation.json
-    - assets/json/job.json
-
+    - assets/json/
+    - assets/images/
+    
     - assets/images/bbpi_logo.png
     - assets/images/_.jpg
 
